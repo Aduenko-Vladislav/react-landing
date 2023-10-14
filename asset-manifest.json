@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.js": "/react-landing/static/js/main.e84e876c.js",
+    "main.js": "/react-landing/static/js/main.0a72a4f6.js",
+    "static/media/bg.jpg": "/react-landing/static/media/bg.76debbc6fe381a7f8cce.jpg",
+    "static/media/logo.svg": "/react-landing/static/media/logo.6b8556b71a5c12e695ddf5a54f515209.svg",
     "index.html": "/react-landing/index.html",
-    "main.e84e876c.js.map": "/react-landing/static/js/main.e84e876c.js.map"
+    "main.0a72a4f6.js.map": "/react-landing/static/js/main.0a72a4f6.js.map"
   },
   "entrypoints": [
-    "static/js/main.e84e876c.js"
+    "static/js/main.0a72a4f6.js"
   ]
 }

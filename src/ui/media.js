@@ -1,4 +1,4 @@
-import { Breakpoints } from "./breakpoints";
+import  Breakpoints  from "./breakpoints";
 
 export const media = {
   mobile: `@media (max-width: ${Breakpoints.SM}px)`,

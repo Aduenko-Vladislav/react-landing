@@ -1,7 +1,6 @@
-<div style="display: flex; align-items: center;">
-    <p style="align-self: center;">
-        *
-        <a href="https://aduenko-vladislav.github.io/react-landing/">Смотреть демо</a>
-        *
-    </p>
+<div align="center">
+    <p align="center">
+    *
+    <a href="https://aduenko-vladislav.github.io/react-landing/">Watch Demo</a>
+    * </p>
 </div>

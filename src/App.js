@@ -1,8 +1,12 @@
 import React from "react";
-import Header from "./components/Header/Header.js"
+import HeaderNav from "./components/HeaderNav/HeaderNav.js";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <HeaderNav />
+    </>
+  );
 }
 
 export default App;

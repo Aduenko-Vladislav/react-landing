@@ -1,10 +1,8 @@
 import React from "react";
+import Header from "./components/Header/Header.js"
+
 function App() {
-  return (
-    <div>
-      <h1>Start my react-landing page</h1>
-    </div>
-  );
+  return <Header />;
 }
 
 export default App;

@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderBody from "../HeaderBody/HeaderBody";
+import LogoIcon from "../../assets/icons/logo.svg";
 
 import {
   StyledHeader,
@@ -16,7 +17,7 @@ const HeaderNav = () => {
     <StyledHeader>
       <Nav>
         <Link>
-          <Logo />
+          <Logo src={LogoIcon}/>
         </Link>
         <NavList>
           <NavItem>

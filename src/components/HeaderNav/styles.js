@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import Colors from "../../ui/colors";
 import { media } from "../../ui/media";
-import LogoIcon from "../../assets/icons/logo.svg";
 import Background from "../../assets/img/bg.jpg";
 
 const StyledHeader = styled.header`
@@ -74,21 +73,15 @@ const Nav = styled.nav`
 
 const Link = styled.a`
   text-decoration: none;
+  cursor: pointer;
   ${media.mobile} {
     margin: 14.64px 0;
   }
 `;
 
-const Logo = styled.div`
+const Logo = styled.img`
   display: block;
-  height: 27px;
-  width: 184px;
-  background: url(${LogoIcon});
-  background-repeat: no-repeat;
-  ${media.mobile} {
-    position: relative;
-    z-index: 3;
-  }
+  max-width: 100%;
 `;
 
 const NavList = styled.ul`

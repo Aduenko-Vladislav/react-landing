@@ -15,7 +15,7 @@ const HeaderNav = () => {
   return (
     <StyledHeader>
       <Nav>
-        <Link src>
+        <Link>
           <Logo />
         </Link>
         <NavList>

@@ -1,6 +1,7 @@
 import React from "react";
+import Button from "../Button/Button.js";
 
-import { StyledBody, Title, Subtitle, Button, Link } from "./styles";
+import { StyledBody, Title, Subtitle } from "./styles";
 
 const HeaderBody = () => {
   return (
@@ -10,11 +11,7 @@ const HeaderBody = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
         commodo cursus magna vel scelerisque nisl consectetur et.
       </Subtitle>
-      <Button>
-        <Link href="#" target="blank">
-          Find Out More
-        </Link>
-      </Button >
+      <Button href="#" buttonText="Find Out More"></Button>
     </StyledBody>
   );
 };

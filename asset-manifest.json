@@ -1,12 +1,18 @@
 {
   "files": {
-    "main.js": "/react-landing/static/js/main.77f221fd.js",
+    "main.js": "/react-landing/static/js/main.aabdcbee.js",
     "static/media/bg.jpg": "/react-landing/static/media/bg.76debbc6fe381a7f8cce.jpg",
+    "static/media/icon_1.svg": "/react-landing/static/media/icon_1.e6dd222f2675f0e99b4eb777acc5a9a9.svg",
     "static/media/logo.svg": "/react-landing/static/media/logo.26b351ed4edcf378e9823130a0f536cf.svg",
+    "static/media/icon_6.svg": "/react-landing/static/media/icon_6.c180b8c82e8d96aa4c4c2ffe0e43ae52.svg",
+    "static/media/icon_3.svg": "/react-landing/static/media/icon_3.d6a6febae20c5c54b487acd844e56fe7.svg",
+    "static/media/icon_4.svg": "/react-landing/static/media/icon_4.0dd1730dd16b995fc1cd916836fa5112.svg",
+    "static/media/icon_2.svg": "/react-landing/static/media/icon_2.ffefc2eb3015b264e75c389d5f418e29.svg",
+    "static/media/icon_5.svg": "/react-landing/static/media/icon_5.411674551420912f03d450e0c65ecc77.svg",
     "index.html": "/react-landing/index.html",
-    "main.77f221fd.js.map": "/react-landing/static/js/main.77f221fd.js.map"
+    "main.aabdcbee.js.map": "/react-landing/static/js/main.aabdcbee.js.map"
   },
   "entrypoints": [
-    "static/js/main.77f221fd.js"
+    "static/js/main.aabdcbee.js"
   ]
 }

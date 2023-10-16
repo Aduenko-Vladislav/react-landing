@@ -73,7 +73,7 @@ const Link = styled.a`
   text-decoration: none;
 `;
 
-const Logo = styled.img`
+const Logo = styled.div`
   display: block;
   height: 27px;
   width: 184px;

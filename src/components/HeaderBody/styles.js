@@ -9,6 +9,14 @@ const StyledBody = styled.div`
   width: 100%;
   margin: 0 auto;
   padding: 0 16px;
+
+  ${media.tablet} {
+    padding: 0 20px;
+  }
+
+  ${media.mobile} {
+    padding: 0 20px;
+  }
 `;
 
 const Title = styled.h1`
@@ -21,6 +29,18 @@ const Title = styled.h1`
   text-transform: uppercase;
 
   color: ${Colors.textColorheader};
+
+  ${media.tablet} {
+    font-size: 48px;
+    margin-bottom: 61.86px;
+    line-height: normal;
+  }
+
+  ${media.mobile} {
+    font-size: 36px;
+    margin-bottom: 32.71px;
+    line-height: normal;
+  }
 `;
 
 const Subtitle = styled.p`
@@ -31,43 +51,17 @@ const Subtitle = styled.p`
   text-align: center;
 
   color: ${Colors.textColorheader};
-`;
 
-const Button = styled.button`
-  display: block;
-  margin: 0 auto;
-
-  max-width: 369px;
-`;
-
-const Link = styled.a`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 26px 70px;
-  width: 100%;
-
-  color: ${Colors.textColorheader};
-  background-color: ${Colors.bgbutton};
-
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 28px;
-  text-transform: uppercase;
-  transition: 0.3s linear;
   ${media.tablet} {
-    padding: 26px 63px;
+    font-size: 18px;
+    margin-bottom: 89.14px;
   }
+
   ${media.mobile} {
-    padding: 26px 46px;
-  }
-  &:hover {
-    background-color: ${Colors.buttonHover};
-  }
-  &:active {
-    background-color: ${Colors.buttonActive};
-    box-shadow: 4px 4px 30px #ff4343;
+    font-size: 14px;
+    margin-bottom: 42.29px;
   }
 `;
 
-export { StyledBody, Title, Subtitle, Button, Link };
+
+export { StyledBody, Title, Subtitle };

@@ -56,6 +56,9 @@ const Nav = styled.nav`
     width: 100%;
     top: 100%;
     left: 0;
+    ${media.mobile} {
+      display: none;
+    }
   }
 
   ${media.tablet} {
@@ -64,13 +67,16 @@ const Nav = styled.nav`
   }
 
   ${media.mobile} {
-    padding-top: 21.39px;
-    margin-bottom: 20px;
+    padding: 0 20px;
+    margin-bottom: 49.75px;
   }
 `;
 
 const Link = styled.a`
   text-decoration: none;
+  ${media.mobile} {
+    margin: 14.64px 0;
+  }
 `;
 
 const Logo = styled.div`
@@ -78,6 +84,7 @@ const Logo = styled.div`
   height: 27px;
   width: 184px;
   background: url(${LogoIcon});
+  background-repeat: no-repeat;
   ${media.mobile} {
     position: relative;
     z-index: 3;
@@ -135,7 +142,7 @@ const NavItem = styled.li`
 
 const NavLink = styled.a`
   display: block;
-  padding: 32px 0;
+  padding: 36px 0;
 
   text-align: center;
   text-transform: uppercase;

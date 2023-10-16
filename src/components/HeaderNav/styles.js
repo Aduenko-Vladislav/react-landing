@@ -7,6 +7,7 @@ const StyledHeader = styled.header`
   position: relative;
 
   margin-bottom: 116px;
+  padding: 0 20px;
   padding-bottom: 120px;
 
   background-image: url(${Background});
@@ -24,15 +25,16 @@ const StyledHeader = styled.header`
     opacity: 0.8;
     z-index: 1;
   }
-
   ${media.tablet} {
+    padding: 0 16px;
     padding-bottom: 126px;
     margin-bottom: 87.41px;
   }
 
   ${media.mobile} {
+    padding: 0 7px;
     padding-bottom: 52px;
-    margin-bottom: 58.38px;
+    margin-bottom: 40px;
   }
 `;
 

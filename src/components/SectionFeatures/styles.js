@@ -22,7 +22,7 @@ const StyledFeature = styled.section`
   }
 `;
 
-const ItemFeature = styled.div`
+const FeatureItem = styled.div`
   padding: 10px;
   &:hover {
     border-radius: 7px;
@@ -78,4 +78,4 @@ const Subtitle = styled.p`
   }
 `;
 
-export { Title, Subtitle, Img, ItemFeature, StyledFeature };
+export { Title, Subtitle, Img, FeatureItem, StyledFeature };

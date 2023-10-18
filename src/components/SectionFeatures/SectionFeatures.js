@@ -6,7 +6,7 @@ import IconCode from "../../assets/icons/icon_4.svg";
 import IconShip from "../../assets/icons/icon_5.svg";
 import IconDownload from "../../assets/icons/icon_6.svg";
 
-import { StyledFeature, ItemFeature, Title, Subtitle, Img } from "./styles";
+import { StyledFeature, FeatureItem, Title, Subtitle, Img } from "./styles";
 
 const SectionFeatures = () => {
   const itemsData = [
@@ -57,11 +57,11 @@ const SectionFeatures = () => {
   return (
     <StyledFeature id="features">
       {itemsData.map((el) => (
-        <ItemFeature key={el.id}>
+        <FeatureItem key={el.id}>
           <Img src={el.imageURL} />
           <Title>{el.title}</Title>
           <Subtitle>{el.description}</Subtitle>
-        </ItemFeature>
+        </FeatureItem>
       ))}
     </StyledFeature>
   );

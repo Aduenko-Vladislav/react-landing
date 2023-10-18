@@ -116,22 +116,34 @@ const NavList = styled.ul`
 const NavItem = styled.li`
   min-width: 134px;
   width: 100%;
-  transition: 0.5s linear;
-  border-bottom: 4px solid transparent;
+
   position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    background-color: ${Colors.borderLine};
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    transform: translateX(0%);
+  }
+  &:hover::before {
+    width: 100%;
+    left: 0;
+  }
+  &:active::before {
+    background-color: ${Colors.navActive};
+    width: 100%;
+    left: 0;
+  }
+
   ${media.tablet} {
     min-width: 112px;
   }
   ${media.mobile} {
     display: flex;
-  }
-  &:hover {
-    border-bottom: 4px solid ${Colors.borderLine};
-    top: calc(100% + 28px);
-    left: 0;
-    &:active {
-      border-bottom: 4px solid ${Colors.navActive};
-    }
   }
 `;
 

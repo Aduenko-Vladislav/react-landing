@@ -23,6 +23,7 @@ const StyledWorks = styled.section`
 const WorkItem = styled.div`
   border: 2px solid ${Colors.swiperColor};
   position: relative;
+  cursor: pointer;
 `;
 
 const BackBlock = styled.div`

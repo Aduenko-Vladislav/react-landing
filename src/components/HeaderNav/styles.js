@@ -129,19 +129,21 @@ const NavItem = styled.li`
     transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
     transform: translateX(0%);
   }
+
   &:hover::before {
     width: 100%;
     left: 0;
   }
+
   &:active::before {
     background-color: ${Colors.navActive};
     width: 100%;
     left: 0;
   }
-
   ${media.tablet} {
     min-width: 112px;
   }
+
   ${media.mobile} {
     display: flex;
   }
@@ -157,6 +159,7 @@ const NavLink = styled.a`
   font-size: 13px;
   font-weight: 700;
   line-height: normal;
+  outline: none !important;
 
   color: ${Colors.textColorheader};
   ${media.tablet} {

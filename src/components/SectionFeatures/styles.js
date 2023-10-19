@@ -24,13 +24,6 @@ const StyledFeature = styled.section`
 
 const FeatureItem = styled.div`
   padding: 10px;
-  &:hover {
-    border-radius: 7px;
-    padding: 10px;
-    position: relative;
-    bottom: 20px;
-    box-shadow: 0px 2px 15px 1px;
-  }
 `;
 
 const Img = styled.img`

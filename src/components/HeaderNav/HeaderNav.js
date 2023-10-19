@@ -17,7 +17,7 @@ const HeaderNav = () => {
     <StyledHeader>
       <Nav>
         <Link>
-          <Logo src={LogoIcon}/>
+          <Logo src={LogoIcon} alt="logo"/>
         </Link>
         <NavList>
           <NavItem>
@@ -27,7 +27,7 @@ const HeaderNav = () => {
             <NavLink href="#works">works</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#our team">our team</NavLink>
+            <NavLink href="#our_team">our team</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="#testimonials">testimonials</NavLink>

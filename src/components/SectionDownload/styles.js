@@ -8,6 +8,7 @@ const StyledDownload = styled.div`
   margin: 0 auto;
   margin-bottom: 114px;
 `;
+
 const Title = styled.h3`
   margin-bottom: 32px;
   text-align: center;

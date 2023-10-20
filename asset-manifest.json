@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.js": "/react-landing/static/js/main.f4398d66.js",
+    "main.js": "/react-landing/static/js/main.63700e23.js",
     "static/media/bg.jpg": "/react-landing/static/media/bg.76debbc6fe381a7f8cce.jpg",
     "static/media/work_8.jpg": "/react-landing/static/media/work_8.14e91a41235761459a18.jpg",
     "static/media/work_2.jpg": "/react-landing/static/media/work_2.0010306e3d5ec512df44.jpg",
+    "static/media/Victoria.jpg": "/react-landing/static/media/Victoria.613ca09e3f6d0780cee5.jpg",
     "static/media/work_5.jpg": "/react-landing/static/media/work_5.41d86d0796b217e67ad1.jpg",
     "static/media/work_7.jpg": "/react-landing/static/media/work_7.9341d680833d72725912.jpg",
+    "static/media/Ruth.jpg": "/react-landing/static/media/Ruth.c83a19a36fc3d1c9384d.jpg",
+    "static/media/Timothy.jpg": "/react-landing/static/media/Timothy.69007188bb1754cd6a89.jpg",
+    "static/media/Beverly.jpg": "/react-landing/static/media/Beverly.c821531e24f65a8d5cce.jpg",
     "static/media/work_1.jpg": "/react-landing/static/media/work_1.a99219a318d147832edc.jpg",
     "static/media/work_6.jpg": "/react-landing/static/media/work_6.a8dd40edac9d18c0b299.jpg",
     "static/media/work_4.jpg": "/react-landing/static/media/work_4.076ca99bc91cf8b258f2.jpg",
@@ -17,10 +21,13 @@
     "static/media/icon_4.svg": "/react-landing/static/media/icon_4.0dd1730dd16b995fc1cd916836fa5112.svg",
     "static/media/icon_2.svg": "/react-landing/static/media/icon_2.ffefc2eb3015b264e75c389d5f418e29.svg",
     "static/media/icon_5.svg": "/react-landing/static/media/icon_5.411674551420912f03d450e0c65ecc77.svg",
+    "static/media/twitter.svg": "/react-landing/static/media/twitter.a482f6b1e76f0bcd5c1cefa4537bd69c.svg",
+    "static/media/linkidin.svg": "/react-landing/static/media/linkidin.08d846c636891ab7d78665831319ffd7.svg",
+    "static/media/facebook.svg": "/react-landing/static/media/facebook.ae77b789e61a66fefaac633fe4fe8d35.svg",
     "index.html": "/react-landing/index.html",
-    "main.f4398d66.js.map": "/react-landing/static/js/main.f4398d66.js.map"
+    "main.63700e23.js.map": "/react-landing/static/js/main.63700e23.js.map"
   },
   "entrypoints": [
-    "static/js/main.f4398d66.js"
+    "static/js/main.63700e23.js"
   ]
 }

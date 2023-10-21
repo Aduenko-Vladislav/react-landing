@@ -14,6 +14,7 @@ const StyledTeam = styled.section`
   ${media.tablet} {
     max-width: 1024px;
     gap: 25px;
+    padding: 0 16px;
     margin-bottom: 78px;
   }
 
@@ -24,6 +25,9 @@ const StyledTeam = styled.section`
 `;
 
 const TeamItem = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   ${media.mobile} {
     margin: 0 16px 50px;
   }

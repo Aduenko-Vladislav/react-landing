@@ -60,9 +60,9 @@ const SectionTeam = () => {
       position: "data scientist",
       description:
         "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
-      facebook: "https://www.facebook.com/adyenko/",
+      facebook: "https://www.facebook.com/beverly.little.739",
       twitter: "https://twitter.com",
-      linkedin: "https://www.linkedin.com/in/vaduenko/",
+      linkedin: "https://www.linkedin.com/in/beverly-little-03aa74230/",
     },
   ];
 
@@ -76,13 +76,13 @@ const SectionTeam = () => {
           <Description>{el.description}</Description>
           <LinksBlock>
             <Item>
-              <Link hfef={el.facebook} bgImage={facebookIcon} target="blank" />
+              <Link href={el.facebook} bgImage={facebookIcon} target="blank" />
             </Item>
             <Item>
-              <Link hfef={el.twitter} bgImage={twitterIcon} target="blank" />
+              <Link href={el.twitter} bgImage={twitterIcon} target="blank" />
             </Item>
             <Item>
-              <Link hfef={el.linkedin} bgImage={linkedinIcon} target="blank" />
+              <Link href={el.linkedin} bgImage={linkedinIcon} target="blank" />
             </Item>
           </LinksBlock>
         </TeamItem>

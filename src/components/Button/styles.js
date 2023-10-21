@@ -5,8 +5,8 @@ import { media } from "../../ui/media";
 const StyledButton = styled.button`
   display: block;
   margin: 0 auto;
-
-  max-width: 369px;
+  max-width: 370px;
+  cursor: pointer;
 `;
 
 const Link = styled.a`
@@ -14,23 +14,28 @@ const Link = styled.a`
   justify-content: center;
   align-items: center;
   padding: 26px 70px;
+ 
+  max-width: 370px;
   width: 100%;
 
   color: ${Colors.textColorheader};
   background-color: ${Colors.bgbutton};
 
   font-weight: 900;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
   transition: 0.3s linear;
+
   ${media.tablet} {
-    padding: 28px 63px;
+    padding: 28px 45px;
 
     line-height: normal;
   }
+  
   ${media.mobile} {
-    padding: 18px 46px;
+    padding: 18px 30px;
+   
   }
   &:hover {
     background-color: ${Colors.buttonHover};

@@ -35,8 +35,10 @@ const Link = styled.a`
   
   ${media.mobile} {
     padding: 18px 30px;
-   
+
+    font-size: 21px;
   }
+  
   &:hover {
     background-color: ${Colors.buttonHover};
   }

@@ -14,6 +14,7 @@ const StyledDownload = styled.div`
 
   ${media.mobile} {
     padding: 0 16px;
+    margin-bottom: 45px;
   }
 `;
 

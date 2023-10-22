@@ -16,6 +16,9 @@ const StyledBody = styled.div`
 
   ${media.mobile} {
     padding: 0 20px;
+    &.active {
+      z-index: 0;
+    }
   }
 `;
 
@@ -62,6 +65,5 @@ const Subtitle = styled.p`
     margin-bottom: 42.29px;
   }
 `;
-
 
 export { StyledBody, Title, Subtitle };

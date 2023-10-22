@@ -19,6 +19,7 @@ const StyledFeature = styled.section`
 
   ${media.mobile} {
     grid-template-columns: repeat(1, 1fr);
+    max-width: 500px;
   }
 `;
 

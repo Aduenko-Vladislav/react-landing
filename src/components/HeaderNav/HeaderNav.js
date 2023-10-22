@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import HeaderBody from "../HeaderBody/HeaderBody";
 import LogoIcon from "../../assets/icons/logo.svg";
 
@@ -10,34 +10,62 @@ import {
   NavList,
   NavItem,
   NavLink,
+  BurgerButton,
+  Span,
 } from "./styles";
 
 const HeaderNav = () => {
+  const [isBurgerActive, setBurgerActive] = useState(false);
+
+  const handleBurgerClick = () => {
+    setBurgerActive(!isBurgerActive);
+  };
+
+  const handleNavLinkClick = () => {
+    setBurgerActive(false);
+  };
+
   return (
-    <StyledHeader>
+    <StyledHeader className={isBurgerActive ? "active" : ""}>
       <Nav>
-        <Link>
-          <Logo src={LogoIcon} alt="logo"/>
+        <Link className={isBurgerActive ? "active" : ""}>
+          <Logo src={LogoIcon} alt="logo" />
         </Link>
-        <NavList>
+        <NavList className={isBurgerActive ? "active" : ""}>
           <NavItem>
-            <NavLink href="#features">features</NavLink>
+            <NavLink onClick={handleNavLinkClick} href="#features">
+              features
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#works">works</NavLink>
+            <NavLink onClick={handleNavLinkClick} href="#works">
+              works
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#our_team">our team</NavLink>
+            <NavLink onClick={handleNavLinkClick} href="#our_team">
+              our team
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#testimonials">testimonials</NavLink>
+            <NavLink onClick={handleNavLinkClick} href="#testimonials">
+              testimonials
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#download">download</NavLink>
+            <NavLink onClick={handleNavLinkClick} href="#download">
+              download
+            </NavLink>
           </NavItem>
         </NavList>
+        <BurgerButton
+          onClick={handleBurgerClick}
+          className={isBurgerActive ? "active" : ""}
+        >
+          <Span className={isBurgerActive ? "active" : ""} />
+        </BurgerButton>
       </Nav>
-      <HeaderBody />
+      <HeaderBody isBurgerActive={isBurgerActive} />
     </StyledHeader>
   );
 };

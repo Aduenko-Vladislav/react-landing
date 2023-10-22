@@ -89,7 +89,7 @@ const Link = styled.a`
   height: 39px;
 
   border: 1px solid ${Colors.borderColor};
-  background: url(${(props) => props.bgImage});
+  background-image: ${(props) => `url(${props.bgImage})`};
   background-repeat: no-repeat;
   background-position: center;
   transition: 0.5s linear;

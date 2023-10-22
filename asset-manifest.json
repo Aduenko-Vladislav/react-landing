@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.js": "/react-landing/static/js/main.cb431723.js",
+    "main.js": "/react-landing/static/js/main.e929b163.js",
     "static/media/bg.jpg": "/react-landing/static/media/bg.76debbc6fe381a7f8cce.jpg",
+    "static/media/swiper_img5.jpg": "/react-landing/static/media/swiper_img5.93f681b1fe6b6d81520a.jpg",
+    "static/media/swiper_img2.jpg": "/react-landing/static/media/swiper_img2.bcf6d6c585bc5f2c9915.jpg",
+    "static/media/swiper_img4.jpg": "/react-landing/static/media/swiper_img4.fe8380b363ee506a1f35.jpg",
+    "static/media/swiper_img1.jpg": "/react-landing/static/media/swiper_img1.0643d46d09036db17a19.jpg",
     "static/media/work_8.jpg": "/react-landing/static/media/work_8.14e91a41235761459a18.jpg",
     "static/media/work_2.jpg": "/react-landing/static/media/work_2.0010306e3d5ec512df44.jpg",
     "static/media/Victoria.jpg": "/react-landing/static/media/Victoria.613ca09e3f6d0780cee5.jpg",
@@ -14,6 +18,7 @@
     "static/media/work_6.jpg": "/react-landing/static/media/work_6.a8dd40edac9d18c0b299.jpg",
     "static/media/work_4.jpg": "/react-landing/static/media/work_4.076ca99bc91cf8b258f2.jpg",
     "static/media/work_3.jpg": "/react-landing/static/media/work_3.63b35f357cdfa5feb528.jpg",
+    "static/media/swiper_img3.jpg": "/react-landing/static/media/swiper_img3.72adca9a4d901c284252.jpg",
     "static/media/icon_1.svg": "/react-landing/static/media/icon_1.e6dd222f2675f0e99b4eb777acc5a9a9.svg",
     "static/media/logo.svg": "/react-landing/static/media/logo.26b351ed4edcf378e9823130a0f536cf.svg",
     "static/media/icon_6.svg": "/react-landing/static/media/icon_6.c180b8c82e8d96aa4c4c2ffe0e43ae52.svg",
@@ -25,9 +30,9 @@
     "static/media/linkidin.svg": "/react-landing/static/media/linkidin.08d846c636891ab7d78665831319ffd7.svg",
     "static/media/facebook.svg": "/react-landing/static/media/facebook.ae77b789e61a66fefaac633fe4fe8d35.svg",
     "index.html": "/react-landing/index.html",
-    "main.cb431723.js.map": "/react-landing/static/js/main.cb431723.js.map"
+    "main.e929b163.js.map": "/react-landing/static/js/main.e929b163.js.map"
   },
   "entrypoints": [
-    "static/js/main.cb431723.js"
+    "static/js/main.e929b163.js"
   ]
 }

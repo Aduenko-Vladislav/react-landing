@@ -3,9 +3,9 @@ import Button from "../Button/Button.js";
 
 import { StyledBody, Title, Subtitle } from "./styles";
 
-const HeaderBody = () => {
+const HeaderBody = ({ isBurgerActive }) => {
   return (
-    <StyledBody>
+    <StyledBody className={isBurgerActive ? "active" : ""}>
       <Title>Your Favorite One Page Multi Purpose Template</Title>
       <Subtitle>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent

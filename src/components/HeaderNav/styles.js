@@ -78,6 +78,9 @@ const Link = styled.a`
   cursor: pointer;
   ${media.mobile} {
     margin: 14.64px 0;
+    &.active {
+      z-index: 1;
+    }
   }
 `;
 
@@ -109,6 +112,9 @@ const NavList = styled.ul`
       left: 0;
       height: 80px;
       z-index: 2;
+    }
+    &.active {
+      top: 0;
     }
   }
 `;
@@ -171,4 +177,78 @@ const NavLink = styled.a`
   }
 `;
 
-export { StyledHeader, Logo, Link, Nav, NavList, NavItem, NavLink };
+const BurgerButton = styled.a`
+  display: none;
+  border: none;
+  background: transparent;
+
+  ${media.mobile} {
+    display: block;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    z-index: 3;
+
+    &::before {
+      content: "";
+      background-color: ${Colors.borderColor};
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      top: 0;
+      left: 0;
+      transition: all 0.3s ease;
+    }
+
+    &.active::before {
+      transform: rotate(45deg);
+      top: 8px;
+    }
+
+    &::after {
+      content: "";
+      background-color: ${Colors.borderColor};
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      transition: all 0.3s ease;
+    }
+
+    &.active::after {
+      transform: rotate(-45deg);
+      bottom: 8px;
+    }
+  }
+`;
+
+const Span = styled.span`
+  content: "";
+  background-color: ${Colors.borderColor};
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: 8px;
+  left: 0;
+  transition: all 0.3s ease;
+
+  &.active {
+    transform: scale(0);
+  }
+`;
+
+export {
+  StyledHeader,
+  Logo,
+  Link,
+  Nav,
+  NavList,
+  NavItem,
+  NavLink,
+  BurgerButton,
+  Span,
+};
